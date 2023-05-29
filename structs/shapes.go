@@ -36,3 +36,12 @@ type Triangle struct {
 func (t Triangle) Area() float64 {
 	return (t.Base * t.Height) * 0.5
 }
+
+type Diamond struct {
+	Base float64
+	Height float64
+}
+
+func (d Diamond) Area() float64 {
+	return (d.Base * d.Height) / 2
+}
